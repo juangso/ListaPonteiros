@@ -21,5 +21,5 @@ int main (){
     int b = operacao(7, 5, subtracao);
 
     printf("Soma = %d\n", a);
-    printf("Diferença = %d", b);    
+    printf("Diferença = %d\n", b);    
 }
