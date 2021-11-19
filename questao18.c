@@ -11,11 +11,8 @@ void multmatriz(int **a, int **b, int **c, int lin_A, int col_A, int col_B){
             {
                 c[i][j] = c[i][j] + a[i][k]*b[k][j];
             }
-            
-        }
-        
+        } 
     }
-    
 }
 
 void main (){
@@ -110,9 +107,5 @@ for (int i = 0; i < lin_C; i++)
     }
     
 }
-
-
-
-
 
 }
