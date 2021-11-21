@@ -57,4 +57,7 @@ void main(){
         printf("%d | ", vetsoma[i]);
     }
     
+    free(vet1);
+    free(vet2);
+    free(vetsoma);
     }

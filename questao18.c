@@ -108,4 +108,13 @@ for (int i = 0; i < lin_C; i++)
     
 }
 
+free(a[0]);
+free(a);
+
+free(b[0]);
+free(b);
+
+free(c[0]);
+free(c);
+
 }

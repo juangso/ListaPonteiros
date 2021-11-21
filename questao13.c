@@ -42,6 +42,6 @@ int main() {
         printf("%.2f | ", num[i]);
     };
     
-    
+    free(num); //liberando a memoria
 
 }

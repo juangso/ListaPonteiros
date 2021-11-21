@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int comparacao(const void *a, const void *b){
     if (*(int*)a == *(int*)b){
@@ -37,11 +38,15 @@ void main(){
         printf("%.1f | ", num[i]);
     };
 
+    //chamando a função de ordenacao
     qsort(num, n, sizeof(float), comparacao);
 
+    //imprimindo vetor ordenado
     printf("\nVetor ordenado -> ");
     for(int i = 0; i < n; i++){
         printf("%.1f | ", num[i]);
     };
+
+    free(num); //liberando a memoria
 
 }
