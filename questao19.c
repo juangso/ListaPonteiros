@@ -20,6 +20,9 @@ for (int i = 0; i < 10; i++)
     printf("%d | ", vet[i]);
 }
 
-GC_FREE(vet); //liberando a memória -> a função "free()" é substituida por "GC_FREE()";
+/*liberando a memória
+a função "free()" é substituida por "GC_FREE()"
+essa função, no entando, não é necessária, uma vez que a biblioteca libera a memória automaticamente */
+GC_FREE(vet); 
 return 0;
 }
